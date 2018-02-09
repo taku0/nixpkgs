@@ -55,7 +55,7 @@ let
 in
 stdenv.mkDerivation rec {
   name = "flashplayer-standalone-${version}";
-  version = "28.0.0.161";
+  version = "28.0.0.162";
 
   src = fetchurl {
     url =
