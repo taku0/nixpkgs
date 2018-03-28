@@ -41,10 +41,10 @@ rec {
 
   firefox-esr = common rec {
     pname = "firefox-esr";
-    version = "52.7.2esr";
+    version = "52.7.3esr";
     src = fetchurl {
       url = "mirror://mozilla/firefox/releases/${version}/source/firefox-${version}.source.tar.xz";
-      sha512 = "e275fd10fd32a0dc237135af3395e3a1ae501844632c973ff3b9bca1456702ee36dbee99fc57300598403c924c0db63bd62a199845c8f4a2e29db5d1e5973395";
+      sha512 = "fc5530d8ff5b7f6cd8d9f677d65dee3c1489401c9c9b88258f2e59c7796975cfb7f0b8ccfdf80ae92a6644f51f70de8733c334e4673cad9b8813cca33ae3e1c3";
     };
 
     patches = nixpkgsPatches;
